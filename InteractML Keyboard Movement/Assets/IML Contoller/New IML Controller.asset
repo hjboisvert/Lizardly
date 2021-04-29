@@ -34,7 +34,7 @@ MonoBehaviour:
   DevMode: 0
   IsInitialized: 1
   m_ScriptInternal: {fileID: 0}
-  ScriptHashCode: -883040
+  ScriptHashCode: 13732
   m_PortsPerFieldInfo:
     m_keys:
     - _fieldName: Volume
@@ -85,8 +85,8 @@ MonoBehaviour:
   IsInitialized: 1
   GameObjectDataOut: {fileID: 0}
   GameObjMissing: 0
-  state: 0
-  GOHashCode: 14832
+  state: 1
+  GOHashCode: 13682
   CreatedDuringPlaymode: 0
 --- !u!114 &-5114614570845316818
 MonoBehaviour:
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_PositionExtracted:
     m_Values:
     - 6.5677
-    - 0.11
+    - 0.05
     - 9.96
   ReceivingData: 0
 --- !u!114 &-2944575740676690038
@@ -313,7 +313,7 @@ MonoBehaviour:
   DevMode: 0
   IsInitialized: 1
   m_ScriptInternal: {fileID: 0}
-  ScriptHashCode: -1552436
+  ScriptHashCode: 13694
   m_PortsPerFieldInfo:
     m_keys:
     - _fieldName: LightIntesity
@@ -476,8 +476,8 @@ MonoBehaviour:
   PredictedRapidlibOutput:
   - 0
   DelayedPredictedOutput:
-  - 0.022263850683986952
-  m_NumExamplesTrainedOn: 129
+  - -0.15460856988374072
+  m_NumExamplesTrainedOn: 0
   m_ExpectedInputList: 03000000
   m_ExpectedOutputList: 00000000
   m_LearningType: 1

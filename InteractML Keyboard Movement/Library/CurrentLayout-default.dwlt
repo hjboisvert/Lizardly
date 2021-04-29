@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 392}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 677, y: 342}
-  m_MaxSize: {x: 12002, y: 8042}
+  m_MinSize: {x: 679, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 58
+  controlID: 56
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 379
     height: 573
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -217,10 +217,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 947
-  m_MinSize: {x: 402, y: 342}
-  m_MaxSize: {x: 8002, y: 8042}
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 59
+  controlID: 57
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,10 +242,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 573
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 60
+  controlID: 58
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -311,7 +311,7 @@ MonoBehaviour:
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 13746
   m_LastVerticalScrollValue: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -339,27 +339,12 @@ MonoBehaviour:
     height: 353
   m_ViewDataDictionary: {fileID: 0}
   _references:
-  - _node: {fileID: -7162539684357270665, guid: 922cd39252ae21c4b8ba7fc3ad938f06,
-      type: 2}
-    _name: GameObjectDataOut
-  - _node: {fileID: -5114614570845316818, guid: 922cd39252ae21c4b8ba7fc3ad938f06,
-      type: 2}
-    _name: GameObjectDataIn
-  - _node: {fileID: -5114614570845316818, guid: 922cd39252ae21c4b8ba7fc3ad938f06,
-      type: 2}
-    _name: LiveDataOut
   - _node: {fileID: -2944575740676690038, guid: 922cd39252ae21c4b8ba7fc3ad938f06,
       type: 2}
     _name: m_In
   - _node: {fileID: -2944575740676690038, guid: 922cd39252ae21c4b8ba7fc3ad938f06,
       type: 2}
     _name: m_Out
-  - _node: {fileID: -471370688437261903, guid: 922cd39252ae21c4b8ba7fc3ad938f06, type: 2}
-    _name: InputFeatures
-  - _node: {fileID: -471370688437261903, guid: 922cd39252ae21c4b8ba7fc3ad938f06, type: 2}
-    _name: TrainingExamplesNodeToOutput
-  - _node: {fileID: -471370688437261903, guid: 922cd39252ae21c4b8ba7fc3ad938f06, type: 2}
-    _name: TargetValues
   - _node: {fileID: 3194228193244158793, guid: 922cd39252ae21c4b8ba7fc3ad938f06, type: 2}
     _name: IMLTrainingExamplesNodes
   - _node: {fileID: 3194228193244158793, guid: 922cd39252ae21c4b8ba7fc3ad938f06, type: 2}
@@ -375,23 +360,23 @@ MonoBehaviour:
     _name: Volume
   - _node: {fileID: -169681398702740245, guid: 922cd39252ae21c4b8ba7fc3ad938f06, type: 2}
     _name: LightIntesity
+  - _node: {fileID: -7162539684357270665, guid: 922cd39252ae21c4b8ba7fc3ad938f06,
+      type: 2}
+    _name: GameObjectDataOut
+  - _node: {fileID: -5114614570845316818, guid: 922cd39252ae21c4b8ba7fc3ad938f06,
+      type: 2}
+    _name: GameObjectDataIn
+  - _node: {fileID: -5114614570845316818, guid: 922cd39252ae21c4b8ba7fc3ad938f06,
+      type: 2}
+    _name: LiveDataOut
+  - _node: {fileID: -471370688437261903, guid: 922cd39252ae21c4b8ba7fc3ad938f06, type: 2}
+    _name: InputFeatures
+  - _node: {fileID: -471370688437261903, guid: 922cd39252ae21c4b8ba7fc3ad938f06, type: 2}
+    _name: TrainingExamplesNodeToOutput
+  - _node: {fileID: -471370688437261903, guid: 922cd39252ae21c4b8ba7fc3ad938f06, type: 2}
+    _name: TargetValues
   _rects:
   - serializedVersion: 2
-    x: 234
-    y: 71
-    width: 16
-    height: 16
-  - serializedVersion: 2
-    x: 313
-    y: 79
-    width: 16
-    height: 16
-  - serializedVersion: 2
-    x: 546
-    y: 79
-    width: 16
-    height: 16
-  - serializedVersion: 2
     x: 313
     y: 399
     width: 16
@@ -399,21 +384,6 @@ MonoBehaviour:
   - serializedVersion: 2
     x: 546
     y: 399
-    width: 16
-    height: 16
-  - serializedVersion: 2
-    x: 713
-    y: 89
-    width: 16
-    height: 16
-  - serializedVersion: 2
-    x: 996
-    y: 89
-    width: 16
-    height: 16
-  - serializedVersion: 2
-    x: 713
-    y: 109
     width: 16
     height: 16
   - serializedVersion: 2
@@ -449,6 +419,36 @@ MonoBehaviour:
   - serializedVersion: 2
     x: 1865
     y: 400
+    width: 16
+    height: 16
+  - serializedVersion: 2
+    x: 234
+    y: 71
+    width: 16
+    height: 16
+  - serializedVersion: 2
+    x: 313
+    y: 79
+    width: 16
+    height: 16
+  - serializedVersion: 2
+    x: 546
+    y: 79
+    width: 16
+    height: 16
+  - serializedVersion: 2
+    x: 713
+    y: 89
+    width: 16
+    height: 16
+  - serializedVersion: 2
+    x: 996
+    y: 89
+    width: 16
+    height: 16
+  - serializedVersion: 2
+    x: 713
+    y: 109
     width: 16
     height: 16
   graph: {fileID: 11400000, guid: 922cd39252ae21c4b8ba7fc3ad938f06, type: 2}
@@ -531,7 +531,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 96350000
     m_LastClickedID: 13718
-    m_ExpandedIDs: 000000008635000000ca9a3b
+    m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -559,7 +559,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -682,9 +682,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: c0faffff6afbffff
+      m_SelectedIDs: 98350000
+      m_LastClickedID: 13720
+      m_ExpandedIDs: 68fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

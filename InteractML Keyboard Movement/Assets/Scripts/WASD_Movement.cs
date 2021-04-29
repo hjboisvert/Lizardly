@@ -5,6 +5,7 @@ using UnityEngine;
 public class WASD_Movement : MonoBehaviour
 {
     public float speed = 5;
+    public Camera FPCam;
 
     // Start is called before the first frame update
     void Start()
@@ -17,8 +18,7 @@ public class WASD_Movement : MonoBehaviour
     {
 
         Vector3 pos = transform.position;
-
-
+        
         if (Input.GetKey("w"))
         {
             pos.z += speed * Time.deltaTime;
@@ -40,5 +40,7 @@ public class WASD_Movement : MonoBehaviour
         }
 
         transform.position = pos;
+
+        FPCam.transform.position = pos + new Vector3(0,3.5f,0);
     }
 }
